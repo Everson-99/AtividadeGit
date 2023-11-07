@@ -11,6 +11,16 @@
 
 </head>
 <body>
-    
+    <h1>Calcular Idade</h1>
+    <form>
+        <label for="nascimento">Ano de Nascimento:</label>
+        <input type="number" id="nascimento" name="nascimento" required>
+        <br>
+        <label for="atual">Ano Atual:</label>
+        <input type="number" id="atual" name="atual" required>
+        <br>
+        <button type="button" onclick="calcularIdade()">Calcular</button>
+    </form>
+    <p id="resultado"></p>
 </body>
 </html>
